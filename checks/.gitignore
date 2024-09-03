@@ -1,0 +1,42 @@
+# Ignorar archivos de Python compilados
+__pycache__/
+*.py[cod]
+
+# Ignorar archivos de configuración de entornos virtuales de Python
+venv/
+.env/
+.venv/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de sistema y carpetas de entorno
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos grandes y carpetas específicas
+archivos_grandes/
+*.zip
+*.tar.gz
+
+# Ignorar archivos específicos de editores de texto o IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos temporales
+*.swp
+*.tmp
+*.bak
+*.old
+
+# Ignorar archivos de compilación u otros archivos binarios
+*.o
+*.so
+*.out
+
+# Ignorar otras carpetas o archivos específicos que no deseas subir
+node_modules/
+dist/
+build/
